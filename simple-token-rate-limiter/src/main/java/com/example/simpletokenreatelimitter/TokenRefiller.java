@@ -12,7 +12,7 @@ public class TokenRefiller {
         this.tokenBucket = tokenBucket;
     }
 
-    @Scheduled(fixedRate = 2000)
+    @Scheduled(fixedRate = 1000)
     public void refill() {
         this.tokenBucket.refill();
     }
