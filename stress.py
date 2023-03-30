@@ -1,9 +1,9 @@
 import requests
 import concurrent.futures
 
-API = 'http://localhost:8080/take'
-MAX_THREADS = 10
-CONCURRENT_THREADS = 8
+API = 'http://localhost:8080/take/10'
+MAX_THREADS = 15
+CONCURRENT_THREADS = 10
 
 
 def send_api_request():
